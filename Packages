@@ -1,0 +1,76 @@
+
+Package: xyz.skitty.filzaplus
+Name: FilzaPlus
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Turn Filza into a code editor.
+Author: Skitty & fahlnbg
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: Tweaks
+Depends: mobilesubstrate, com.tigisoftware.filza | com.tigisoftware.filza64bit
+Size:303980	
+MD5:2ddf5ddf1a5ea88d611e7bb5300f4b7d  
+Filename: ./debs/xyz.skitty.filzaplus_1.2_iphoneos-arm.deb
+SHA1:9b73797b2d99472f1f04e26f7101135fa8181074  
+SHA256:1f5e7eb0978347975f1f108d4286cbc08177b169406e5bdf87d83272086d4e89  
+
+Package: com.fahlnbg.nicebarx
+Name: NiceBarX Cracked byJulio
+Version: 2.0.5.2-1
+Architecture: iphoneos-arm
+Description: statusbar tweak..
+Author: niceios
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: Tweaks
+Depends: com.rpetrich.rocketbootstrap, mobilesubstrate
+Size:1676300	
+MD5:f8659f6c58c91fee6eb93bef7006e09c  
+Filename: ./debs/com.fahlnbg.nicebarx_2.0.5.2-1_iphoneos-arm.deb
+SHA1:3b2b0f4cacb27e28dace78704119877999654e72  
+SHA256:3443f10467277140bb02f21a8fdf6b3972f59cd0111de18ce67dc9658d48e78d  
+
+Package: net.iapps4u-wisychannel.theosinstaller
+Name: Theos Installer
+Version: 0.1.2
+Architecture: iphoneos-arm
+Description: Install theos and setup everything you need with one click! Works on iOS 11 & 12 (unc0ver). Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
+Author: Jake James + Wisy
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: System
+Depends: org.coolstar.iostoolchain, curl, git, coreutils, unzip, coreutils-bin
+Size:6422	
+MD5:92f27e68cb91ba7f30ad609234292e64  
+Filename: ./debs/net.iapps4u-wisychannel.theosinstaller_0.1.2_iphoneos-arm.deb
+SHA1:6c056510f6c1d74463c6ded5fc55813f4fe62189  
+SHA256:7b8fdc51b9b1b0d3221ffec277f540d07ff6cd6d9af914f71ccf8c466982d810  
+
+Package: com.fahlnbg.ftt
+Name: Flex To Theos
+Version: 0.0.4-1+debug
+Architecture: iphoneos-arm
+Description: Turn Flex 3 patches into Theos projects
+Author: ipad_kid <repo@hackyouriphone.org>
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: HYI - Tweaks
+Depends: mobilesubstrate
+Size:26810	
+MD5:9645c59637f2a735eb0db9fed2f3d2cf  
+Filename: ./debs/com.fahlnbg.ftt_0.0.4-1+debug_iphoneos-arm.deb
+SHA1:0160388f5f687f744092e8f4348805ff2df9ea9a  
+SHA256:dbb87fea528ae96a647665c6deca0788f228c41af628f7cbdbbd242b206df7fd  
+
+Package: com.fahlnbg.flexgesture
+Name: FLEXGesture
+Version: 1.1
+Architecture: iphoneos-arm
+Description: Tired of all the FLEX injector tweaks failing to work eventually? Just install this package and use a four-finger tap to activate it for the frontmost application (or SpringBoard). (includes FLEX version 3.0.0)
+Author: AppleBetas <repo@hackyouriphone.org>
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: HYI - Tweaks
+Depends: mobilesubstrate, firmware (>= 10.0)
+Conflicts: applebetas.ios.tweak.devtools.flipboard.flex
+Size:972096	
+MD5:69e7abb15c6ce2ab51e7fa2b02bd96e4  
+Filename: ./debs/com.fahlnbg.flexgesture_1.1_iphoneos-arm.deb
+SHA1:55194d70df8c4a19ba9cfd9ebdbd0cdf0584357a  
+SHA256:c9dd2657dc9b7520e8f712827278948e8f690d9f28415b80da2f90073096313d  
