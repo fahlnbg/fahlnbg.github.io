@@ -51,7 +51,7 @@ Architecture: iphoneos-arm
 Description: Turn Flex 3 patches into Theos projects
 Author: ipad_kid <repo@hackyouriphone.org>
 Maintainer: fahlnbg <fahlnbg@gmail.com>
-Section: HYI - Tweaks
+Section: Tweaks
 Depends: mobilesubstrate
 Size:26810	
 MD5:9645c59637f2a735eb0db9fed2f3d2cf  
@@ -66,7 +66,7 @@ Architecture: iphoneos-arm
 Description: Tired of all the FLEX injector tweaks failing to work eventually? Just install this package and use a four-finger tap to activate it for the frontmost application (or SpringBoard). (includes FLEX version 3.0.0)
 Author: AppleBetas <repo@hackyouriphone.org>
 Maintainer: fahlnbg <fahlnbg@gmail.com>
-Section: HYI - Tweaks
+Section: Tweaks
 Depends: mobilesubstrate, firmware (>= 10.0)
 Conflicts: applebetas.ios.tweak.devtools.flipboard.flex
 Size:972096	
@@ -74,3 +74,18 @@ MD5:69e7abb15c6ce2ab51e7fa2b02bd96e4
 Filename: ./debs/com.fahlnbg.flexgesture_1.1_iphoneos-arm.deb
 SHA1:55194d70df8c4a19ba9cfd9ebdbd0cdf0584357a  
 SHA256:c9dd2657dc9b7520e8f712827278948e8f690d9f28415b80da2f90073096313d  
+
+Package: com.fahlnbg.libcolorfortheos
+Name: Install Libcolorpocker for Theos
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Install Libcolorpocker for Theos
+Author: fahlnbg
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: Tweak
+Depends: org.thebigboss.libcolorpicker
+Size:1584	
+MD5:029d0c643d6edf59f4a9ea7b86180177  
+Filename: ./debs/com.fahlnbg.libcolorfortheos_1.0_iphoneos-arm.deb
+SHA1:52d48dccf95e74f03669c5044578e4660386d571  
+SHA256:5d24054949732028d2fbfa18df4518109b32049b48db7cf81a0a122247169eaa  
