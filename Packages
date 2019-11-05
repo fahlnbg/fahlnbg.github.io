@@ -75,17 +75,19 @@ Filename: ./debs/com.fahlnbg.flexgesture_1.1_iphoneos-arm.deb
 SHA1:55194d70df8c4a19ba9cfd9ebdbd0cdf0584357a  
 SHA256:c9dd2657dc9b7520e8f712827278948e8f690d9f28415b80da2f90073096313d  
 
+
+
 Package: com.fahlnbg.libcolorfortheos
 Name: Install Libcolorpocker for Theos
-Version: 1.0
+Version: 1.2
 Architecture: iphoneos-arm
 Description: Install Libcolorpocker for Theos
 Author: fahlnbg
 Maintainer: fahlnbg <fahlnbg@gmail.com>
 Section: Tweak
 Depends: org.thebigboss.libcolorpicker
-Size:1584	
-MD5:029d0c643d6edf59f4a9ea7b86180177  
-Filename: ./debs/com.fahlnbg.libcolorfortheos_1.0_iphoneos-arm.deb
-SHA1:52d48dccf95e74f03669c5044578e4660386d571  
-SHA256:5d24054949732028d2fbfa18df4518109b32049b48db7cf81a0a122247169eaa  
+Size:1586	
+MD5:fd9e263590d4a2c53fd7215160d573c0  
+Filename: ./debs/com.fahlnbg.libcolorfortheos_1.2_iphoneos-arm.deb
+SHA1:bb19b80c12b8807fd51d7a2eadea1b3a62bb5af2  
+SHA256:772d79e9377766f7f9cce36fed3459b48effb19fb8a6ba376ab24a818722123d  
