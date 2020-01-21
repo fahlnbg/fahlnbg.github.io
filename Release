@@ -1,16 +1,11 @@
-Origin: fahlnbg Repo
-Label: fahlnbg
-Origin: fahlnbg Repo
+Origin: FAHLNBG Repo
+Label: FAHLNBG
+Suite: stable
 Version: 1.0
-Codename: fahlnbg
+Codename: ios
 Architecture: iphoneos-arm
 Components: main
-Description: Repo cá nhân của fahlnbg
-
-MD5sum:
-
-3360973fa73870816640485658a6ce57  
-3523	Packages
-
-9715cba55554b688c52dda8117e593f6  
-1690	Packages.bz2
+Description: Source Cydia Repo by FAHLNBG
+MD5Sum:
+ 581f2f74a3edfdab8a621d6365ac6f5f 5441 Packages
+ f631028774c83cc9ac3260667f30ae2a 2509 Packages.bz2
