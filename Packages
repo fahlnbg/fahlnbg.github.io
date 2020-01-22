@@ -1,18 +1,18 @@
 Package: com.fahlnbg.ftt
 Architecture: iphoneos-arm
-Version: 0.0.4-1+debug
-Section: HYI - Tweaks
+Version: 0.0.5
+Section: Tweaks
 Maintainer: fahlnbg <fahlnbg@gmail.com>
 Depends: mobilesubstrate
-Filename: ./debs/com.fahlnbg.ftt_0.0.4-1+debug_iphoneos-arm.deb
-Size: 26810
-MD5sum: 9645c59637f2a735eb0db9fed2f3d2cf
-SHA1: 0160388f5f687f744092e8f4348805ff2df9ea9a
-SHA256: dbb87fea528ae96a647665c6deca0788f228c41af628f7cbdbbd242b206df7fd
-SHA512: 0bde704c3dc45242b80c124dfe8cda1ccb1cedf1af559df2a3ad7637044caede943c00a2871686f73941a536e90872da719898a51b5bb53db409e1402d31926e
+Filename: ./debs/com.fahlnbg.ftt_0.0.5_iphoneos-arm.deb
+Size: 26778
+MD5sum: 2d4e282bce46b2e7ffda17666ced205b
+SHA1: db025ed16226af01cbea360293f6ca720307a2a6
+SHA256: e5f3724f0c187373b5bbceccb5cf848031b8a73eb3070d6cab9b3df9968966f8
+SHA512: fecfacc330275d94d9d9c184605d58a991cd2166fc2d9251ecb65f2b6b18f685ce067c73a6f895ced30ab18961496c6b524f616073d7851e2d4706167f091282
 Description: Turn Flex 3 patches into Theos projects
 Name: Flex To Theos
-Author: ipad_kid <repo@hackyouriphone.org>
+Author: ipad_kid
 
 Package: com.fahlnbg.libcolorfortheos
 Architecture: iphoneos-arm
