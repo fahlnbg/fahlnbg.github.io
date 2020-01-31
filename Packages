@@ -64,6 +64,70 @@ Description: Auto Pkgs, Pkgs2,.. Copy to Github Repo and run on Filza
 Name: Release Repo
 Author: fahlnbg
 
+Package: com.fahlnbg.sdks
+Architecture: iphoneos-arm
+Version: 10.3
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.sdks_10.3_iphoneos-arm.deb
+Size: 12290128
+MD5sum: bfbc1cc81779dd871666eb606950fca7
+SHA1: 15ad33943b45d02225426bad431caa4d36a94875
+SHA256: 469e84f12c60f3087d97b29de7aa0ff25f2e54c0a270f064ef2d8fe6aebfcbeb
+SHA512: 9e340077fb2c6c2c943ac0ad5245231f1314f4c1b4acb5ef4502ee2de951e3850692529e19fb5110d22a82f522e593c00a79315e9a10183514e0ee5792543f1d
+Description: Sdks for Theosinstall
+Name: SDKS
+Author: fahlnbg
+
+Package: com.fahlnbg.sdks
+Architecture: iphoneos-arm
+Version: 11.2
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.sdks_11.2_iphoneos-arm.deb
+Size: 9637522
+MD5sum: 4c8b5c130c97052cc61798bf69e04432
+SHA1: 6a2196c1571fd07469a42a7fe6baa6b0ec40ab02
+SHA256: c64af012a8b5b228bb2c691a5b5fb5eb83787f6a1c5adc8fb8176d259ed814ab
+SHA512: 519a296a80bc22e0d40c2c3476ab92c2a8e0fa1510054244120477716e03b882381d71a842bef526b66fef2becff557800396945095c3c1ffea16723cdb220c2
+Description: Sdks for Theosinstall
+Name: SDKS
+Author: fahlnbg
+
+Package: com.fahlnbg.sdks
+Architecture: iphoneos-arm
+Version: 12.0.1
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.sdks_12.0.1_iphoneos-arm.deb
+Size: 10673734
+MD5sum: 1ef2a2d7bca1c7fa7087b7a2271bc810
+SHA1: a5faa3eac075890849c5990628294ce3a8f3dbc1
+SHA256: fd4c231a76c68f9dedd4a0aa94e1093d201e7394183e5a0de6e344a6af439ebf
+SHA512: 0c0c17775fe72664499509b19ec7e8c1aa2cc7d8af8af15d15796e96c968c8164de1d6d67b02d59880cef69f4e81eec14a31b10ea333e8f07bda56786a205356
+Description: Sdks for Theosinstall
+Name: SDKS
+Author: fahlnbg
+
+Package: com.fahlnbg.sdks
+Architecture: iphoneos-arm
+Version: 12.2
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.sdks_12.2_iphoneos-arm.deb
+Size: 10595940
+MD5sum: c36ce4ba71487a4c4e69847976c86c6a
+SHA1: ead7d33624a4641265d45bed1ea11839028cbfff
+SHA256: 138a4ecd54b0c57e2ecbe3f4716d8e687a54bcc3d257a08f84c495663b9c9ae2
+SHA512: 7528ce69d44af4051edef9f10837f248503b64b5934f0b40147f5b81e271c86f1b8c6c69912ccf4a50442cdec9affcf0b90f3b60e9c4945c841b25de17f1a58c
+Description: Sdks for Theosinstall
+Name: SDKS
+Author: fahlnbg
+
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
 Version: 0.1.4
