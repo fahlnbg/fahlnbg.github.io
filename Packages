@@ -1,3 +1,19 @@
+Package: com.fahlnbg.flexlibrary
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.flexlibrary_1.0_iphoneos-arm.deb
+Size: 1771240
+MD5sum: 1da6ac53143685758f264ad5350143ef
+SHA1: a15c0d99ccc2279d42de2c4d96472bc8e0780fc8
+SHA256: 9f8013e171f14c2253f0099213cd46d657807527ceb790ca8939433ea2bde0a8
+SHA512: 71644c85534b0e37001e8085e434d1e65cf0338a329285485afbf897e3951c21622a5034952f05ca202570ebfc0b4a2917ec9d842cc26d03e5f7bad7a162e67e
+Description: Flex 3 Library
+Name: Flex Library iOS12
+Author: fahlnbg
+
 Package: com.fahlnbg.ftt
 Architecture: iphoneos-arm
 Version: 0.0.5
