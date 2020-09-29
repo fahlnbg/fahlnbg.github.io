@@ -247,6 +247,24 @@ Description: Install theos and setup everything you need with one click! Works o
 Name: Theos Installer
 Author: Jake James + Wisy
 
+Package: net.jakeashacks.theosinstaller2
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: System
+Maintainer: Jake James
+Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
+Conflicts: net.howett.theos, org.coolstar.cctools, org.coolstar.llvm-clang, org.coolstar.llvm-clang64
+Filename: ./debs/net.jakeashacks.theosinstaller2_1.0.2_iphoneos-arm.deb
+Size: 2288
+MD5sum: 7ca2129163f844de4811ca8df16f7740
+SHA1: 6e3ec23093072c42b7973f24108a6f178788a56d
+SHA256: f0bd37e2850f6440a2a89573fb340d2160d4d3879610752a1adc41374eaee12d
+SHA512: 3d1bb9497bbe225592aea813cf18e7a4474255acf313d8677b7f4327a29282da0761624ddb3e73af701392d1cca45ed05c97e8ed2cd912e0c05349d2146ce5dc
+Description: Install theos and setup everything you need with one click! Works on iOS 11, 12 and 13, unc0ver and checkra1n. Supports compiling arm64e. Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
+Tag: role::hacker
+Name: Theos Installer 2 (unc0ver and checkra1n)
+Author: Jake James
+
 Package: xyz.skitty.filzaplus
 Architecture: iphoneos-arm
 Version: 1.2
