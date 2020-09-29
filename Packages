@@ -101,24 +101,6 @@ Description: statusbar tweak..
 Name: NiceBarX Cracked byJulio
 Author: niceios
 
-Package: com.fahlnbg.repo
-Architecture: iphoneos-arm
-Version: 0.1
-Priority: important
-Section: Administration
-Maintainer: fahlnbg
-Pre-Depends: firmware (>= 7.0)
-Depends: mobilesubstrate, apt
-Filename: ./debs/com.fahlnbg.repo_0.1_iphoneos-arm.deb
-Size: 1072
-MD5sum: a7dc005aa20c4a63ab30bad34ae2b1ce
-SHA1: 026b9ad415ec1e81ee08125b2e0c83a795211c22
-SHA256: 6c93922fcadaf1871b8bf3fa6602b31102749ebb64ad7a13d78ed47734d7e6fb
-SHA512: 7006038ca48b3300f766554525a735b94853fbbcbf689fa0b024207ea6024e6ebedaeb13fa681ea230f03ef636c6240632dbe01001553f2826f798250c0cea42
-Description: Auto Pkgs, Pkgs2,.. Copy to Github Repo and run on Filza
-Name: Release Repo
-Author: fahlnbg
-
 Package: com.fahlnbg.sdks
 Architecture: iphoneos-arm
 Version: 10.3
