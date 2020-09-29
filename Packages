@@ -1,3 +1,26 @@
+Package: com.c1d3r.PullOverPro
+Architecture: iphoneos-arm
+Version: 2.1.1.2
+Priority: optional
+Section: Tweaks
+Maintainer: c1d3r <c1d3rdev@gmail.com>
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Conflicts:
+Replaces:
+Filename: ./debs/com.c1d3r.PullOverPro_2.1.1.2_iphoneos-arm.deb
+Size: 1561178
+MD5sum: 9c06152af16dd73842757fed1a19dc7d
+SHA1: 11de5cd191b9d77992e46108b62279b1b9a2b1f3
+SHA256: 9bff294270ad50823e638ad5783881bef66c3b65559dd17fbe030aff43eb62bc
+SHA512: 6011eb77c42c0c61b054f5881edc5024bf8d1ad976238df73af015173fd19bae602be664dbc8ee336e8ba20ad4060e18770e6ecd557804431a733eb53a1cff6e
+Homepage:
+Description: A better way to multitask!
+Name: PullOver Pro Cr
+Author: c1d3r
+dev: c1d3r
+Depiction: https://c1d3r.com/repo/depictions/?p=com.c1d3r.pulloverpro
+Icon:
+
 Package: com.fahlnbg.flexlibrary
 Architecture: iphoneos-arm
 Version: 1.0
@@ -162,16 +185,32 @@ Author: fahlnbg
 
 Package: com.fahlnbg.sdks
 Architecture: iphoneos-arm
-Version: 13.3
+Version: 13.5
 Section: Tweaks
 Maintainer: fahlnbg
 Depends: mobilesubstrate
-Filename: ./debs/com.fahlnbg.sdks_13.3_iphoneos-arm.deb
-Size: 40207384
-MD5sum: 7d58adf37c2125bc44b7e42f6ad8338f
-SHA1: 78b726c4b9d938c74324febdcf8585eb6c6b94b1
-SHA256: 95d766d49e76c2562637c7319f6593e4f6a504f5b8c7ed7ba9399b0a6cd84c01
-SHA512: 16b766a43f49ff5ba52fc5c1c7c0f640b89ecd691d65f68b7a5a861c7687843804ed60a026d17774e50a395b2bb2593db5a3cbf1e61d27215751320e0a14b9ec
+Filename: ./debs/com.fahlnbg.sdks_13.5_iphoneos-arm.deb
+Size: 25761242
+MD5sum: bc49cc9b8bbd1cca2484b02ad32d6173
+SHA1: aad203ed86209f928c13d13908791c35b3e9cf14
+SHA256: fb201f1cbcbcaa81ed37895a307686953ccadf65ee6074533b0669e19d80ec4b
+SHA512: 22f41a47fd31715f5e1d83337fe7e9993428caddc503dfafd660702a42d49398e4c9e1a2467a5fcba2ea6426b19cdd3e22bdc415c2a1dc44cebc02434c5bd88f
+Description: Sdks for Theosinstall
+Name: SDKS
+Author: fahlnbg
+
+Package: com.fahlnbg.sdks
+Architecture: iphoneos-arm
+Version: 13.7
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.sdks_13.7_iphoneos-arm.deb
+Size: 25766378
+MD5sum: c4ad92405fa65f141c29fbc882607aed
+SHA1: 93821c753116fe689d3da758e2bbb676f75083e6
+SHA256: 5590eb59da32eba45fa363db3b06e6083bf9a8b9fcf0f0cf88a098d2535d038b
+SHA512: ebb7a84e3c65880ec2591575c2c91da31230755869d5dcf3efb8d0ba65a59684452ea545a5a1a97f9abcbfe76854c65b8358b6098ed7c55964976b306cd853ee
 Description: Sdks for Theosinstall
 Name: SDKS
 Author: fahlnbg
