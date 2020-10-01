@@ -53,6 +53,22 @@ Description: Turn Flex 3 patches into Theos projects
 Name: Flex To Theos
 Author: ipad_kid
 
+Package: com.fahlnbg.gitpush
+Architecture: iphoneos-arm
+Version: 1
+Section: Utilities
+Maintainer: fahlnbg
+Depends: git
+Filename: ./debs/com.fahlnbg.gitpush_1_iphoneos-arm.deb
+Size: 2046
+MD5sum: cbb9148535dee0e80f6f33096e2f4e5e
+SHA1: d4642f03befd6f593f9d9669dad5f470f55ad8b7
+SHA256: b96b3cbc60976bc68d99cfad519074d78b2cc150d06a2e73329c7f74d8584c03
+SHA512: b88cca8f932138936b31160620ebd116148a9470881e30174285c39091dcaf2683355560d84a2abfeeef45aafe4a5ef7749a5d8d7b347c6d21ef9b836161c777
+Description: Auto push Github with gitpush
+Name: GitPush
+Author: fahlnbg
+
 Package: com.fahlnbg.libcolorfortheos
 Architecture: iphoneos-arm
 Version: 1.2
