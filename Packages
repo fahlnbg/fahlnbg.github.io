@@ -213,6 +213,22 @@ Description: Sdks for Theosinstall
 Name: SDKS
 Author: fahlnbg
 
+Package: com.fahlnbg.wifikey
+Architecture: iphoneos-arm
+Version: 1.0-1+debug
+Section: Applications
+Maintainer: fahlnbg
+Installed-Size: 184
+Filename: ./debs/com.fahlnbg.wifikey_1.0-1+debug_iphoneos-arm.deb
+Size: 26386
+MD5sum: 839a29bc3afb3b10caa8a8b8ac033c81
+SHA1: 540c6e3191d48aa8673428e62af4e23ccfd539f7
+SHA256: 4dd125fbace83ff8d332a807bfe1c4af86db1264d5b80698f196fb33bda2c3f7
+SHA512: 502c478ad2814d90403b7fb79aef127ae129378d4a33d1321fd608b45c4209e56457b0ac7ca536ce1dd1e5b6f1fd59da30bb94333fa7d1127189b89619ebcd27
+Description: View and share WiFi passwords
+Name: WiFi Key
+Author: fahlnbg
+
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
 Version: 0.1.4
