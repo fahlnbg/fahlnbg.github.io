@@ -1,0 +1,11 @@
+
+if [ -f "/usr/lib/libFAHLNBG.dylib" ];then
+cp -R /usr/lib/libFAHLNBG.dylib /var/theos/lib/
+    else echo Pls !!! Install LibFAHLNBG on FAHLNBG Repo
+fi
+
+if [ -f "/var/theos/include/libcolorpicker.h" ];then
+    rm -rf "/var/theos/include/libcolorpicker.h"
+    fi
+mv /usr/libcolorpicker.h /var/theos/include/
+echo Done install..!!!!

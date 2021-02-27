@@ -1,0 +1,9 @@
+Package: com.fahlnbg.libcolorfortheos
+Name: Install Libcolorpocker for Theos
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Install Libcolorpocker for Theos
+Author: fahlnbg
+Maintainer: fahlnbg <fahlnbg@gmail.com>
+Section: Tweak
+Depends: org.thebigboss.libcolorpicker |me.nepeta.libcolorpicker

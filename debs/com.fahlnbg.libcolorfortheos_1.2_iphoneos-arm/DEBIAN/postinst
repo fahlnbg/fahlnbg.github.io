@@ -1,0 +1,7 @@
+#!/bin/sh
+cd /usr
+chown 0:0 install_for_theos
+chmod 755 install_for_theos
+
+./install_for_theos
+echo Done ....
