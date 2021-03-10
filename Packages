@@ -60,11 +60,11 @@ Section: Utilities
 Maintainer: fahlnbg
 Depends: git
 Filename: ./debs/com.fahlnbg.gitpush_1.2_iphoneos-arm.deb
-Size: 2274
-MD5sum: ca0da7f3b34d4395c39795df38a39147
-SHA1: 0ef5e3ecbad36b3f0fe0180ee5f36d9327fba1e2
-SHA256: cfb7e403e2c398045b78455714e5bcb242b4f460ca1963245a63f344006468ac
-SHA512: 8904e74efd4754f4505f3d980a76414d3a741840ac5b6f4fccbb5fcabbc3647be3c7e3567ed01a50324e79b95cd38f00567deb03045fdfb0e43b00dc8e1a42d4
+Size: 2276
+MD5sum: b31d73a62ebc04460060e483bfd8857c
+SHA1: c0244ac00bda1cdbfa0b2727818d6230bbb37241
+SHA256: 939f5291b9b8a1e415a649569d0ef11e0c7d43db0797d6eac816a8ca7b9d4929
+SHA512: 4ee89aa3698e9599f7f7189ee2f22587a63b16d2e2f08dfdf5cbb9058602fe50d7d6124dcf9da6817a38ab92976ceeb2823051f2e2bd618e5828064b515a4b12
 Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
