@@ -55,16 +55,16 @@ Author: ipad_kid
 
 Package: com.fahlnbg.gitpush
 Architecture: iphoneos-arm
-Version: 1.1
+Version: 1.2
 Section: Utilities
 Maintainer: fahlnbg
 Depends: git
-Filename: ./debs/com.fahlnbg.gitpush_1.1_iphoneos-arm.deb
-Size: 2252
-MD5sum: 9447b5354a3c986c88a668bc7053fda2
-SHA1: e71555817aa83a406b98fb32a897eb97ea66ac72
-SHA256: d22a40ec66f2ae6d45ac061a395620dd1afb6cc299dfbe7e642725de8b53f2aa
-SHA512: c07e902724803c46093c270dbbb5aac805318c14bf4d832e0e53cc89d0a5f7b0ddfa7d3a8c16aaf88d6af8833917e3bdc8cfd236d053f8a31d491f9d496e937a
+Filename: ./debs/com.fahlnbg.gitpush_1.2_iphoneos-arm.deb
+Size: 2274
+MD5sum: ca0da7f3b34d4395c39795df38a39147
+SHA1: 0ef5e3ecbad36b3f0fe0180ee5f36d9327fba1e2
+SHA256: cfb7e403e2c398045b78455714e5bcb242b4f460ca1963245a63f344006468ac
+SHA512: 8904e74efd4754f4505f3d980a76414d3a741840ac5b6f4fccbb5fcabbc3647be3c7e3567ed01a50324e79b95cd38f00567deb03045fdfb0e43b00dc8e1a42d4
 Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
