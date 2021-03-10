@@ -5,7 +5,7 @@ Version: 1.0
 Codename: ios
 Architecture: iphoneos-arm
 Components: main
-Description: Source Cydia Repo by GitPush <fahlnbg>
+Description: Cydia Repo by GitPush <fahlnbg>
 MD5Sum:
  edf2c5c663d74a8f0ae43f6eda79e68a 12418 Packages
  fba0caf7d0073215913eb6f23b0def82 4831 Packages.bz2
