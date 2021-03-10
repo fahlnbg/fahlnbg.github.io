@@ -215,19 +215,23 @@ Author: fahlnbg
 
 Package: com.fahlnbg.wifikey
 Architecture: iphoneos-arm
-Version: 1.0-1+debug
-Section: Applications
+Version: 1.8
+Section: Utilities
 Maintainer: fahlnbg
 Installed-Size: 184
-Filename: ./debs/com.fahlnbg.wifikey_1.0-1+debug_iphoneos-arm.deb
-Size: 26386
-MD5sum: 839a29bc3afb3b10caa8a8b8ac033c81
-SHA1: 540c6e3191d48aa8673428e62af4e23ccfd539f7
-SHA256: 4dd125fbace83ff8d332a807bfe1c4af86db1264d5b80698f196fb33bda2c3f7
-SHA512: 502c478ad2814d90403b7fb79aef127ae129378d4a33d1321fd608b45c4209e56457b0ac7ca536ce1dd1e5b6f1fd59da30bb94333fa7d1127189b89619ebcd27
+Filename: ./debs/com.fahlnbg.wifikey_1.8_iphoneos-arm.deb
+Size: 29054
+MD5sum: 805de1546ced6ecc07c527ae99129d03
+SHA1: 0b0b7d085b8480ac10da36db6332575a0336486a
+SHA256: 342a6c82031a984b180484c50529cd89b56be87da88d67358b6eaa809a2b870c
+SHA512: 85c539263894d89e707721f4f8237c36fae24cf3be28b0086e8ae2045172a49ef41793c7e08eb1132903ec3458c575cf7da4a6cce80190fc6ffb5e5aa047761a
 Description: View and share WiFi passwords
+Tag: purpose::extension
+SileoDepiction: https://repo.thuthuatjb.com/sileo/none.json
 Name: WiFi Key
 Author: fahlnbg
+Icon: file:///Library/IconRepo/tinhchinh.png
+Depiction: https://repo.thuthuatjb.com/index.php?pid=551
 
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
