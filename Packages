@@ -69,6 +69,22 @@ Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
 
+Package: com.fahlnbg.ikghdCr
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate (>= 0.9.5000), com.julioverne.cracktool4
+Filename: ./debs/com.fahlnbg.ikghdCr_0.1_iphoneos-arm.deb
+Size: 1276
+MD5sum: e579eb02f799a1ce4e8d7740107ad53b
+SHA1: 3d773b82ab39eea6bd69fec83ee085d2d9b3258f
+SHA256: 63459e0dd35023066385ffb7ee687827adc3757c687ceea5a5740b51a93b4d63
+SHA512: cf20d9de7de5e19b210e6a509a5b1f388a91782779712c2b9e9ce7b424874968fbcbdccae442c79ee102c96497d54cbef939ac37f13d9389d5a4415ac5d8d2bd
+Description: Plugin for Cracktool
+Name: ikghd Repo Cr
+Author: fahlnbg
+
 Package: com.fahlnbg.libcolorfortheos
 Architecture: iphoneos-arm
 Version: 1.2
@@ -213,6 +229,22 @@ Description: Sdks for Theosinstall
 Name: SDKS
 Author: fahlnbg
 
+Package: com.fahlnbg.sdks
+Architecture: iphoneos-arm
+Version: 14.4
+Section: Tweaks
+Maintainer: fahlnbg
+Depends: mobilesubstrate
+Filename: ./debs/com.fahlnbg.sdks_14.4_iphoneos-arm.deb
+Size: 12644532
+MD5sum: 8d18248002002b58766ed3623b192ff7
+SHA1: 06edd9f1fa525794e0ba1ebbbfa55d5dafdc5ec8
+SHA256: a12326f92ef3912c7d62d62b131b66c8d26896aef62185abf130b951d5ccafac
+SHA512: aafdceca1ba166dc0afaebaaf1bdeda34abbbe45cfd4a91200299410b41ff14e14ce689f0ea3a1251ff00f6cf3d9acdd509282af9d4f0d119e9306e6bdd91336
+Description: Sdks for Theosinstall
+Name: SDKS
+Author: fahlnbg
+
 Package: com.fahlnbg.wifikey
 Architecture: iphoneos-arm
 Version: 1.8
@@ -267,38 +299,21 @@ Description: Select text to search or translate
 Name: Selector
 Author: Nepeta
 
-Package: net.iapps4u-wisychannel.theosinstaller
-Architecture: iphoneos-arm
-Version: 0.1.2
-Section: System
-Maintainer: fahlnbg <fahlnbg@gmail.com>
-Depends: org.coolstar.iostoolchain, curl, git, coreutils, unzip, coreutils-bin
-Filename: ./debs/net.iapps4u-wisychannel.theosinstaller_0.1.2_iphoneos-arm.deb
-Size: 6422
-MD5sum: 92f27e68cb91ba7f30ad609234292e64
-SHA1: 6c056510f6c1d74463c6ded5fc55813f4fe62189
-SHA256: 7b8fdc51b9b1b0d3221ffec277f540d07ff6cd6d9af914f71ccf8c466982d810
-SHA512: a4d383ed22699b9ed36605f8eef7dad66d2cb7cb48182074369fa57d059b71573faf894c9d12d2f7af279da2ffe7bd2c3aa41a86231294e134c8db4c422b1d0b
-Description: Install theos and setup everything you need with one click! Works on iOS 11 & 12 (unc0ver). Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
-Name: Theos Installer
-Author: Jake James + Wisy
-
 Package: net.jakeashacks.theosinstaller2
 Architecture: iphoneos-arm
-Version: 1.0.2
+Version: 1.0.3
 Section: System
 Maintainer: Jake James
 Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
-Conflicts: net.howett.theos, org.coolstar.cctools, org.coolstar.llvm-clang, org.coolstar.llvm-clang64
-Filename: ./debs/net.jakeashacks.theosinstaller2_1.0.2_iphoneos-arm.deb
-Size: 2288
-MD5sum: 7ca2129163f844de4811ca8df16f7740
-SHA1: 6e3ec23093072c42b7973f24108a6f178788a56d
-SHA256: f0bd37e2850f6440a2a89573fb340d2160d4d3879610752a1adc41374eaee12d
-SHA512: 3d1bb9497bbe225592aea813cf18e7a4474255acf313d8677b7f4327a29282da0761624ddb3e73af701392d1cca45ed05c97e8ed2cd912e0c05349d2146ce5dc
-Description: Install theos and setup everything you need with one click! Works on iOS 11, 12 and 13, unc0ver and checkra1n. Supports compiling arm64e. Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
-Tag: role::hacker
-Name: Theos Installer 2 (unc0ver and checkra1n)
+Conflicts: net.howett.theos
+Filename: ./debs/net.jakeashacks.theosinstaller2_1.0.3_iphoneos-arm.deb
+Size: 2016
+MD5sum: 61a51f042881c398a805168160fcd02b
+SHA1: 983764f572effca7780decef572c0d09c232d892
+SHA256: dc9eb795432bf5e2b9c340a152ce5395b92a11a745b0aa052a74422ac92e5ac6
+SHA512: 43dd582a4576e42578f45614f8971c65d6c8f1fda09d10131dcb800955117b0396ee23c48eda0e34030e0c4bfdf2c05cb010ac4c3683c4cab13e0ea9d042b771
+Description: Usage (run as root): theosinstaller
+Name: Theos Installer ( arm64e )
 Author: Jake James
 
 Package: xyz.skitty.filzaplus
