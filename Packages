@@ -8,11 +8,11 @@ Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, appl
 Conflicts:
 Replaces:
 Filename: ./debs/com.c1d3r.PullOverPro_2.1.1.2_iphoneos-arm.deb
-Size: 1561178
-MD5sum: 9c06152af16dd73842757fed1a19dc7d
-SHA1: 11de5cd191b9d77992e46108b62279b1b9a2b1f3
-SHA256: 9bff294270ad50823e638ad5783881bef66c3b65559dd17fbe030aff43eb62bc
-SHA512: 6011eb77c42c0c61b054f5881edc5024bf8d1ad976238df73af015173fd19bae602be664dbc8ee336e8ba20ad4060e18770e6ecd557804431a733eb53a1cff6e
+Size: 1567568
+MD5sum: 4c138b0487e5ef842cef10552ab73bcc
+SHA1: 316543e183cc43b5ab6b3dc5cbcd66df872059ab
+SHA256: a78c916d2cf730f7dc70c19b5f7ea3bfdf6ee8edea3202efe59466bc99fd8e99
+SHA512: 99d213ee67e448b4518e2598d280a6f975eb03e9403ac2edcbf31fc9ecc8c90f1aebca1e162e664079ad95bd7319eeb7dc0120aa565cc910b07c4283303db0d5
 Homepage:
 Description: A better way to multitask!
 Name: PullOver Pro Cr
@@ -55,16 +55,16 @@ Author: ipad_kid
 
 Package: com.fahlnbg.gitpush
 Architecture: iphoneos-arm
-Version: 1.2
+Version: 1.5
 Section: Utilities
 Maintainer: fahlnbg
 Depends: git
-Filename: ./debs/com.fahlnbg.gitpush_1.2_iphoneos-arm.deb
-Size: 2276
-MD5sum: b31d73a62ebc04460060e483bfd8857c
-SHA1: c0244ac00bda1cdbfa0b2727818d6230bbb37241
-SHA256: 939f5291b9b8a1e415a649569d0ef11e0c7d43db0797d6eac816a8ca7b9d4929
-SHA512: 4ee89aa3698e9599f7f7189ee2f22587a63b16d2e2f08dfdf5cbb9058602fe50d7d6124dcf9da6817a38ab92976ceeb2823051f2e2bd618e5828064b515a4b12
+Filename: ./debs/com.fahlnbg.gitpush_1.5_iphoneos-arm.deb
+Size: 2340
+MD5sum: 843238d16ff9ed9f5a0158baab4c6530
+SHA1: 74893f2229ccbbd9072a12dc86d646eba6737185
+SHA256: 9a37477f862ad634d8f00ec64616b4cc9556833eb486447d799b8300ded3b14c
+SHA512: 033211af2e9404c8a75d1e8e4f8bacf4f4d7cc6baafb86a575369196364c3af224bb614224d6c5e4ad2d52e80db2bed839baa825a62c50446eedf23bfd5e3298
 Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
