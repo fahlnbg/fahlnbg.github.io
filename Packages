@@ -69,6 +69,24 @@ Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
 
+Package: com.fahlnbg.grayrhino
+Architecture: iphoneos-arm
+Version: 0.3.5
+Section: Tweaks
+Maintainer: @fahlnbg
+Pre-Depends: firmware (>= 12)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.fahlnbg.grayrhino_0.3.5_iphoneos-arm.deb
+Size: 332112
+MD5sum: 2bf13f45887db01771bf6fa18d7193c4
+SHA1: f12d05a03e2005ae788866597b2f3ba09b41c794
+SHA256: 9b418a5070891fb8b1da7951bb2ef6c9cdb25080276e93f204e5aa607aec3f40
+SHA512: 1f92c862fccb1f2bb3aca4017bd0ef9b8e6de26ba63754f5b36b8c06adbec417c38fcbb5bdb8a0a69cfdff5a21f136efde457b9aab10f247befe94da16c142e7
+Description: Get rid of carrier lock!, this does not work on account locked devices or any kind of bypassed device since you will need to know original account in order to be able to activate device, this tweak should work on all jailbroken devices from ios 12 to 14
+Name: grayrhino - FixLock
+Author: BlueDog <josuealonso@panyolsoft.com>
+Icon: file:///icon/grayrhino.png
+
 Package: com.fahlnbg.ikghdCr
 Architecture: iphoneos-arm
 Version: 0.1
