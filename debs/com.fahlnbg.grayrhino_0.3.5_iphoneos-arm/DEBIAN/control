@@ -1,0 +1,11 @@
+Package: com.fahlnbg.grayrhino
+Architecture: iphoneos-arm
+Name: grayrhino - FixLock
+Version: 0.3.5
+Description: Get rid of carrier lock!, this does not work on account locked devices or any kind of bypassed device since you will need to know original account in order to be able to activate device, this tweak should work on all jailbroken devices from ios 12 to 14
+Author: BlueDog <josuealonso@panyolsoft.com>
+Section: Tweaks
+Pre-Depends: firmware (>= 12)
+Depends: mobilesubstrate, preferenceloader
+Icon: file:///icon/grayrhino.png
+Maintainer: @fahlnbg
