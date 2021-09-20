@@ -1,18 +1,18 @@
 Package: com.c1d3r.PullOverPro
 Architecture: iphoneos-arm
-Version: 2.1.1.2
+Version: 2.1.2
 Priority: optional
 Section: Tweaks
 Maintainer: c1d3r <c1d3rdev@gmail.com>
-Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist, com.rpgfarm.libapappview
 Conflicts:
 Replaces:
-Filename: ./debs/com.c1d3r.PullOverPro_2.1.1.2_iphoneos-arm.deb
-Size: 1567568
-MD5sum: 4c138b0487e5ef842cef10552ab73bcc
-SHA1: 316543e183cc43b5ab6b3dc5cbcd66df872059ab
-SHA256: a78c916d2cf730f7dc70c19b5f7ea3bfdf6ee8edea3202efe59466bc99fd8e99
-SHA512: 99d213ee67e448b4518e2598d280a6f975eb03e9403ac2edcbf31fc9ecc8c90f1aebca1e162e664079ad95bd7319eeb7dc0120aa565cc910b07c4283303db0d5
+Filename: ./debs/com.c1d3r.PullOverPro_2.1.2_iphoneos-arm.deb
+Size: 1567592
+MD5sum: 931305985fdfd1a647fc4500cf567ca2
+SHA1: d24b4b211db0f9d7a4ebd14448f85581c28ae165
+SHA256: 63d8ee5948549ff303106c99e1f2a2eaa4a3fe62b1508764927384495811c4b8
+SHA512: 82f013837e6fc6335d99f37dc037527250b4de3c001850e851807a844f82b864af7cb7d7f12fa2283ad9bdfeaa89f242745bcbb1c53f28518069d40617ff4c5f
 Homepage:
 Description: A better way to multitask!
 Name: PullOver Pro Cr
@@ -68,6 +68,24 @@ SHA512: 033211af2e9404c8a75d1e8e4f8bacf4f4d7cc6baafb86a575369196364c3af224bb6142
 Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
+
+Package: com.fahlnbg.grayrhino
+Architecture: iphoneos-arm
+Version: 0.5-1
+Section: Tweaks
+Maintainer: @fahlnbg
+Pre-Depends: firmware (>= 12)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.fahlnbg.grayrhino_0.5-1_iphoneos-arm.deb
+Size: 343202
+MD5sum: 56cd699ba4649e3d39a29a66a0fdf8e1
+SHA1: a5533ad755474c805eca1c4ba7ed8609c6e92429
+SHA256: d0ef088cde7230f950476ba5f562a1b6ac5b06f9e3c222274c679c4dac7ca2ef
+SHA512: da074e2234c0605dce30ba456ef9498e8f1614af29340239d3054bfbbf027bbc71a93aed2bbc2668dc174afec5a6a87104af93b9fd737070b6f9f6bdecc31b8e
+Description: Get rid of carrier lock!, this does not work on account locked devices or any kind of bypassed device since you will need to know original account in order to be able to activate device, this tweak should work on all jailbroken devices from ios 12 to 14
+Name: grayrhino - FixLock
+Author: BlueDog <josuealonso@panyolsoft.com>
+Icon: file:///icon/grayrhino.png
 
 Package: com.fahlnbg.ikghdCr
 Architecture: iphoneos-arm
@@ -264,6 +282,23 @@ Name: WiFi Key
 Author: fahlnbg
 Icon: file:///Library/IconRepo/tinhchinh.png
 Depiction: https://repo.thuthuatjb.com/index.php?pid=551
+
+Package: com.rpgfarm.libapappview
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 196
+Filename: ./debs/com.rpgfarm.libapappview_1.0_iphoneos-arm.deb
+Size: 22352
+MD5sum: f57d64c37f8b1e29b4d76591c28896d3
+SHA1: d253d0398819742ba3e7ea8bde6f33354cb11a66
+SHA256: 08438e9482dc5553a8f577b5186705c8272198b8ee2ee35048edcc9453a66564
+SHA512: 1667e2480c00816e96a7d294f18e9398813709028c5823407e4a110ca907805dabfd9ec18c2fc61e50e37b2fe06aeee2afcd82b4aa1d83eec1f4593c42b51a36
+Description: Get Application View on SpringBoard.
+Tag: role::developer
+Name: libAPAppView
+Author: Baw Appie <pp121324@gmail.com>
 
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
