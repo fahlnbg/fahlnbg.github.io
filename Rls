@@ -1,7 +1,7 @@
 Origin: FAHLNBG Repo
 Label: FAHLNBG
 Suite: stable
-Version: 1.0
+Version: 1.2
 Codename: ios
 Architecture: iphoneos-arm iphoneos-arm64
 Components: main
