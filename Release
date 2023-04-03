@@ -1,11 +1,11 @@
 Origin: FAHLNBG Repo
-Label: FAHLNBG 
+Label: FAHLNBG
 Suite: stable
 Version: 1.0
 Codename: ios
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm iphoneos-arm64
 Components: main
-Description: Cydia Repo by GitPush <fahlnbg>
+Description: Source Cydia Repo by GitPush <fahlnbg>
 MD5Sum:
- afd956424ec239de474f8838614c3bbd 14049 Packages
- 7618009e74a63a16d8c295d602fc7916 5456 Packages.bz2
+ 78d6eb73e00db4c95dc1212e8efa6c5b 15796 Packages
+ a2010ff7d08162c2b7b248f32241af06 6123 Packages.bz2

@@ -55,16 +55,16 @@ Author: ipad_kid
 
 Package: com.fahlnbg.gitpush
 Architecture: iphoneos-arm
-Version: 1.5
+Version: 1.5.3
 Section: Utilities
 Maintainer: fahlnbg
 Depends: git
-Filename: ./debs/com.fahlnbg.gitpush_1.5_iphoneos-arm.deb
-Size: 2340
-MD5sum: 843238d16ff9ed9f5a0158baab4c6530
-SHA1: 74893f2229ccbbd9072a12dc86d646eba6737185
-SHA256: 9a37477f862ad634d8f00ec64616b4cc9556833eb486447d799b8300ded3b14c
-SHA512: 033211af2e9404c8a75d1e8e4f8bacf4f4d7cc6baafb86a575369196364c3af224bb614224d6c5e4ad2d52e80db2bed839baa825a62c50446eedf23bfd5e3298
+Filename: ./debs/com.fahlnbg.gitpush_1.5.3_iphoneos-arm.deb
+Size: 2360
+MD5sum: 8348e7939b6676bb19d7b196def89d9f
+SHA1: 3a0c1f4706b4b7e55fff5c6f6c5d5b3021795fee
+SHA256: fd85e2e60a1ac94f4e5a2eedb0f82e77ebe7825bc01b034b49679878f1fab385
+SHA512: dace0678db6d57948b08de9a89bf20ddee34600e1ade94b27e36989c16e98dd11a3f8324dfe54e4b56e9b6c412f51671937d5f4f90fab109694433850cbc5cbb
 Description: Auto push Github with gitpush
 Name: GitPush
 Author: fahlnbg
@@ -299,6 +299,46 @@ Description: Get Application View on SpringBoard.
 Tag: role::developer
 Name: libAPAppView
 Author: Baw Appie <pp121324@gmail.com>
+
+Package: dev.traurige.kayoko
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Traurige <hello@traurige.dev>
+Installed-Size: 864
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14)
+Filename: ./debs/dev.traurige.kayoko_1.1_iphoneos-arm.deb
+Size: 79000
+MD5sum: db742ddfbd674bb2180f265dcf7bfbe3
+SHA1: 3baf2996ee71249d2c8828f7a2b9d6db8ce7e028
+SHA256: fb2817b206af6d3eba501bf1a0fe8fd959863c78600671917ce5e82a562e9e96
+SHA512: 6c5b7ece0d63b69235dcbfb632f5401359e211d0ef5823da5c1f9d5f835c7c2b0acaf07757361ecd4454fdb869d1f2ffb8c32bc0d78a0ada387409f3b0fab7a9
+Description: Feature rich clipboard manager for iOS
+Name: Kayoko
+Author: Traurige <hello@traurige.dev>
+
+Package: ellekit
+Architecture: iphoneos-arm64
+Version: 0.3
+Priority: optional
+Section: Tweak Injection
+Maintainer: Procursus Team <support@procurs.us>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Depends: libiosexec1 (>= 1.2.2)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: ./debs/ellekit_0.3_rootless.deb
+Size: 340392
+MD5sum: d2e0464ca90bd5493a4c4f077d060922
+SHA1: 0cd32f2a578f8f1903e90037a00d6a79fffa8ec2
+SHA256: 7df1cdc0db9bf0ae54e1afd12f1f1df2f470b255f1073d43efb126c073adbe74
+SHA512: 7ff89477a6f44dba26af5ba236a6c5b31eb67df703434d8f51baf3ba4d4a8c6dd24bb1b94fe7f4cb3449bb680663d61a72018eac733e4eb63a4540ff4cde332c
+Description: ElleKit tweak injection libraries and loader
+ Currently NO SAFE MODE INCLUDED! Install at your own risk!
+ ElleKit tweak injection libraries and loader. Currently in beta,
+ does not currently include a LaunchDaemon.
+Name: ElleKit (Beta)
+Author: Evelyn
 
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
