@@ -332,29 +332,6 @@ Description: Feature rich clipboard manager for iOS
 Name: Kayoko
 Author: Traurige <hello@traurige.dev>
 
-Package: ellekit
-Architecture: iphoneos-arm64
-Version: 0.3
-Priority: optional
-Section: Tweak Injection
-Maintainer: Procursus Team <support@procurs.us>
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Depends: libiosexec1 (>= 1.2.2)
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: ./debs/ellekit_0.3_rootless.deb
-Size: 340392
-MD5sum: d2e0464ca90bd5493a4c4f077d060922
-SHA1: 0cd32f2a578f8f1903e90037a00d6a79fffa8ec2
-SHA256: 7df1cdc0db9bf0ae54e1afd12f1f1df2f470b255f1073d43efb126c073adbe74
-SHA512: 7ff89477a6f44dba26af5ba236a6c5b31eb67df703434d8f51baf3ba4d4a8c6dd24bb1b94fe7f4cb3449bb680663d61a72018eac733e4eb63a4540ff4cde332c
-Description: ElleKit tweak injection libraries and loader
- Currently NO SAFE MODE INCLUDED! Install at your own risk!
- ElleKit tweak injection libraries and loader. Currently in beta,
- does not currently include a LaunchDaemon.
-Name: ElleKit (Beta)
-Author: Evelyn
-
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
 Version: 0.1.4
@@ -388,6 +365,28 @@ SHA512: bfd96ece12e3feefbf3b9a1ab8ac45c4ad8d381ce9b30fe5b8e6ac4a3709323c7c4baeb9
 Description: Select text to search or translate
 Name: Selector
 Author: Nepeta
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.7113
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap, com.saurik.substrate (<< 1:0)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594), com.saurik.substrate
+Filename: ./debs/mobilesubstrate_0.9.7113_iphoneos-arm.deb
+Size: 6359056
+MD5sum: 05f9cbe13f9ae57bb44893d2558a90e6
+SHA1: c66c97507009cf7daa760fba5285ee81bb2114cd
+SHA256: 84199ea6a9dac7d0526be8bc856ba01a29db6ce0f04fe3f70d8f6e4ab15c069a
+SHA512: 09fa3c7e9b781915ec3158f11f694e175e78abf238e9bb8a62fc1b78bcd96091873eb2a5df5c343ead1e498a99776617fb19c1e16d0b360fcbbe0910e13b832f
+Description: powerful code insertion platform
+Name: Cydia Substrate ( checkra1n-14.8 )
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
 Package: net.jakeashacks.theosinstaller2
 Architecture: iphoneos-arm
