@@ -14,6 +14,8 @@ jobs:
           Release
 
     - name: Commit files and push it
+            uses: actions/upload-artifact@v3.1.0
+        with:
       run: |
         git config --global user.email "fahlnbg@gmail.com"
         git config --global user.name "github actions"
