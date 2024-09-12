@@ -8,5 +8,15 @@ jobs:
     steps:
     - name: Clean secret management files
       run: |
-        rm -f Packages Packages.bz2
-          .sops.yaml
+        rm -f \
+          Packages \
+          Packages.bz2 \
+          Release
+
+    - name: Commit files and push it
+      run: |
+        git config --global user.email "fahlnbg@gmail.com"
+        git config --global user.name "github actions"
+        git add .
+        git commit -m "chore: clean repo"
+        git push
