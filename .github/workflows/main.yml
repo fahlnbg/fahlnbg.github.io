@@ -11,10 +11,18 @@ jobs:
         rm -f \
           Packages \
           .github/file2.yaml
-    - name: Commit files and push it
-      run: |
-        git config --global user.email "email@gmail.com"
-        git config --global user.name "github actions"
-        git add --all
-        git commit -m "chore: clean repo"
-        git push
+
+          
+    - name: Upload a Build Artifact
+  uses: actions/upload-artifact@v3.2.1-node20
+  with:
+    name: tessst
+    path: 
+
+    if-no-files-found: # optional, default is warn
+
+    retention-days: # optional
+    # If true, hidden files will be included in the uploaded artifact. If false, hidden files will be excluded from the uploaded artifact.
+
+    include-hidden-files: # optional, default is false
+          
