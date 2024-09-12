@@ -12,6 +12,6 @@ jobs:
           Packages \
           Packages.bz2 \
           Release
-
-    - name: Commit files and push it
-            uses: actions/checkout@v3
+            - name: Cache
+  uses: actions/cache@v4.0.2
+  with:
