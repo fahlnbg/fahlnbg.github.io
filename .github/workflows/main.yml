@@ -9,15 +9,12 @@ jobs:
     - name: Clean secret management files
       run: |
         rm -f \
-           \
-          .github/file2.yaml \
-          .github/.gpg \
-          .github/workflows/workflow.yaml \
-          .sops.yaml
+          Packages \
+          .github/file2.yaml
     - name: Commit files and push it
       run: |
         git config --global user.email "email@gmail.com"
         git config --global user.name "github actions"
-        git add --
+        git add --all
         git commit -m "chore: clean repo"
         git push
