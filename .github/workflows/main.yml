@@ -8,8 +8,8 @@ jobs:
     steps:
     - name: Clean secret management files
       run: |
-        rm -R \
-          Packages \
-          Packages.bz2 \
-          Release
+        rm -f \
+          ./Packages \
+          ./Packages.bz2 \
+          ./Release
       
