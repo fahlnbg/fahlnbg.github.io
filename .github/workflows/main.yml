@@ -12,10 +12,3 @@ jobs:
           Packages \
           .github/workflows/workflow.yaml \
           .sops.yaml
-    - name: Commit files and push it
-      run: |
-        git config --global user.email "email@gmail.com"
-        git config --global user.name "github actions"
-        git add .
-        git commit -m "chore: clean repo"
-        git push
