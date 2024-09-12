@@ -8,7 +8,5 @@ jobs:
     steps:
     - name: Clean secret management files
       run: |
-        rm -f \
-          Packages \
-          .github/workflows/workflow.yaml \
+        rm -f Packages Packages.bz2
           .sops.yaml
