@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: remove pkgz
-        run: |
+        run:
           
           	rm -R Packages Packages.bz2 Release
           
