@@ -19,8 +19,20 @@ jobs:
           fi
 
 
-      - name: Delete file
-        run: rm Packages Packages.bz2 Release
+      - name: Delete file old
+        run: |
+          delete_file() {
+            local file=$1
+            if [ -f "$file" ]; then
+              rm "$file"
+              echo "File deleted: $file"
+            else echo "File not found: $file"
+            fi
+          }
+
+          delete_file "Packages"
+          delete_file "Packages.bz2"
+          delete_file "Release"
           
       - name: Creat new file Packages , Packages.bz2
         run: |
