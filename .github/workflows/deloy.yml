@@ -21,11 +21,11 @@ jobs:
 
       - name: Delete file
         run: |
-          FILE_PATH= Packages Packages.bz2 Release
-          if [ -f "$FILE_PATH" ]; then
-            rm "$FILE_PATH"
-            echo "File deleted: $FILE_PATH"
-          else echo "File not found: $FILE_PATH"
+         
+          if [ -f "Packages" ]; then
+            rm -rf Packages Packages.bz2 Release
+            echo "File deleted: Packages Packages.bz2 Release"
+          else echo "File not found: Packages Packages.bz2 Release"
             exit 1
           fi
           
@@ -50,17 +50,9 @@ jobs:
           printf "%s\n" "$(md5sum ./Packages | cut -d ' ' -f 1) $(stat --format="%s" ./Packages) Package" >> Release
           printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1) $(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
 
-
-  Deloy-Push:
-    runs-on: ubuntu-latest
-
-    steps:
-        - name: Checkout repository
-          uses: actions/checkout@v3
-
         
-        - name: Upload
-          run: |
+      - name: Upload
+        run: |
             git add --all
             git config --global user.name 'FAHLNBG'
             git config --global user.email 'fahlnbg@gmail.com'
