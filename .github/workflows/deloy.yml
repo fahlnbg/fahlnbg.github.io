@@ -21,11 +21,10 @@ jobs:
 
       - name: Delete file
         run: |
-         
-          if [ -f "Packages" ]; then
-            rm -rf Packages Packages.bz2 Release
+          rm -rf Packages Packages.bz2 Release
+          if [ -f "Packages" ]; then 
             echo "File deleted: Packages Packages.bz2 Release"
-          else echo "File not found: Packages Packages.bz2 Release"
+            else echo "File not found: Packages Packages.bz2 Release"
             exit 1
           fi
           
