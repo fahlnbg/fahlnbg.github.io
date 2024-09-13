@@ -22,7 +22,7 @@ jobs:
           
       - name: Delete old file
         run: |
-          git rm \
+          rm -f \
           Packages \
           Packages.bz2 \
           Release
@@ -50,6 +50,7 @@ jobs:
           git config --global user.name 'FAHLNBG'
           git config --global user.email 'fahlnbg@gmail.com'
           git commit -m "Push Repo"
-          git push origin main
+          git push -u origin master
+	        git pull
 
           
