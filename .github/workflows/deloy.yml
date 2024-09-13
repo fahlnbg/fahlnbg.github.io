@@ -31,13 +31,13 @@ jobs:
           
       - name: Creat new file Release
         run: |
-          printf "Origin: FAHLNBG Repo\nLabel: FAHLNBG\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm iphoneos-arm64\nComponents: main\nDescription: Source Repo by github-action <fahlnbg>\n" > Release
+          printf "Origin: FAHLNBG Repo\nLabel: FAHLNBG\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm iphoneos-arm64\nComponents: main\nDescription: Source Repo by github-action <fahlnbg>\n" >> Release
 
 
           # Tính toán checksum và kích thước cho tệp Packages
           echo "MD5Sum:" > Release
-          printf "%s\n" "$(md5sum ./Packages | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages) Package" >> Release
-          printf "%s\n" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
+          printf "%s" "$(md5sum ./Packages | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages) Package" >> Release
+          printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
                
 
       - name: Upload
