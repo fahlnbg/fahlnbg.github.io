@@ -1,3 +1,37 @@
+Package: com.muirey03.cr4shed
+Architecture: iphoneos-arm64
+Version: 4.3.1-1+debug
+Section: Tweaks
+Maintainer: Muirey03
+Installed-Size: 2404
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11)
+Filename: ./debs/Cr4shed_COIPC_Dopamine.deb
+Size: 215200
+MD5sum: 0a0f462184c86841d9882fc7d91240a3
+SHA1: fe356ddb7909a81bd3ed912a41e4183456633963
+SHA256: 5f6ea0dbe219f02fc2132d92def8a56e010abbb3567b2b0575039fb88cc5ed3a
+SHA512: d67017ca1a4cc648824bfe2eff706fcaa28d9d7bfc999e9732369b1ac028e894b98160dc2732ad80b19a1b31b9530409197021616cbd6432852c604ba4b0723a
+Description: A modern crash reporter for iOS
+Name: Cr4shed
+Author: Muirey03
+
+Package: cm90.crossoveripc
+Architecture: iphoneos-arm64
+Version: 1.1-1+debug
+Section: Tweaks
+Maintainer: @CrazyMind90
+Installed-Size: 364
+Depends: mobilesubstrate
+Filename: ./debs/CrossOverIPC_Dopamine.deb
+Size: 15374
+MD5sum: f20b39388b84f1769f55ebd92956347e
+SHA1: 920583a16a7e1204d6f160f85f58ef0afe137019
+SHA256: 509b4132f6ae542887eb49376a7a5cdf43069331ac8e469655f90baa0ead2c9f
+SHA512: a64b093ae429d36eb18932a2f29fe5020aefae50745486252de45ec8a3c3325ebd210d4a31088f23905938fed51b05a91b30afe8527e623e228195bb0563e4db
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for rootless JBs
+Name: CrossOverIPC
+Author: @CrazyMind90
+
 Package: com.c1d3r.PullOverPro
 Architecture: iphoneos-arm
 Version: 2.1.2
@@ -300,6 +334,29 @@ SHA512: 6c5b7ece0d63b69235dcbfb632f5401359e211d0ef5823da5c1f9d5f835c7c2b0acaf077
 Description: Feature rich clipboard manager for iOS
 Name: Kayoko
 Author: Traurige <hello@traurige.dev>
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm64
+Version: 0.3-6-1+debug
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 376
+Depends: firmware (>= 8.0)
+Filename: ./debs/libnotifications_COIPC_Dopamine.deb
+Size: 15274
+MD5sum: e4d491a6b989681d5d6d88047efab0a3
+SHA1: f443c46ba47ca53a3df55ff46595c2bd2a2d43ef
+SHA256: 987516d85d8b64692eb9b155634d05fef690383df6352223637aabd9bf4edfe8
+SHA512: db5655d2983db4981ae24bfe4c708ddc22fd0013558dbfb49ea06a175eabbb1ac32ea2f205bc3ccb8186b515d71b0b0038a3284c7a6250de7dfc35eb5bd0fb83
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: libnotifications
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
 
 Package: me.nepeta.copypasta
 Architecture: iphoneos-arm
