@@ -27,19 +27,28 @@ jobs:
         run: |
           apt-ftparchive packages ./debs > ./Packages
           bzip2 -c9k ./Packages > ./Packages.bz2
-
-          
+     
       - name: Creat new file Release
         run: |
-          printf "Origin: FAHLNBG Repo\nLabel: FAHLNBG\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm iphoneos-arm64\nComponents: main\nDescription: Source Repo by github-action <fahlnbg>\n" >> Release
-
+          echo "Origin: FAHLNBG Repo
+          Label: FAHLNBG
+          Suite: stable
+          Version: 1.0
+          Codename: ios
+          Architectures: iphoneos-arm iphoneos-arm64
+          Components: main
+          Description: Source Repo by github-action <fahlnbg>
+          MD5Sum:" > Release
 
           # Tính toán checksum và kích thước cho tệp Packages
-          echo "MD5Sum:" > Release
           printf "%s\n" "$(md5sum ./Packages | cut -d ' ' -f 1) $(stat --format="%s" ./Packages) Package" >> Release
           printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1) $(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
-               
 
+
+  Deloy-Push:
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Upload
         run: |
           git add --all
