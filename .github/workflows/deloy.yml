@@ -21,7 +21,7 @@ jobs:
 
           
       - name: Delete old file
-        run: rm -f Packages Packages.bz2 Release
+        run: rm -R Packages Packages.bz2 Release
           
       - name: Creat new file Packages , Packages.bz2
         run: |
@@ -36,8 +36,8 @@ jobs:
 
           # Tính toán checksum và kích thước cho tệp Packages
           echo "MD5Sum:" > Release
-          printf "%s" "$(md5sum ./Packages | cut -d ' ' -f 1) $(stat --format="%s" ./Packages) Package\n" >> Release
-          printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
+          printf "%s\n" "$(md5sum ./Packages | cut -d ' ' -f 1) $(stat --format="%s" ./Packages) Package" >> Release
+          printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1) $(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
                
 
       - name: Upload
