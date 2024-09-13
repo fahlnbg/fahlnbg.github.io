@@ -19,8 +19,15 @@ jobs:
           fi
 
 
-      - name: Delete old file
-        run: rm -R Packages Packages.bz2 Release
+      - name: Delete file
+        run: |
+          FILE_PATH= Packages Packages.bz2 Release
+          if [ -f "$FILE_PATH" ]; then
+            rm "$FILE_PATH"
+            echo "File deleted: $FILE_PATH"
+          else echo "File not found: $FILE_PATH"
+            exit 1
+          fi
           
       - name: Creat new file Packages , Packages.bz2
         run: |
