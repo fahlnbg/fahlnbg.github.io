@@ -21,11 +21,7 @@ jobs:
 
           
       - name: Delete old file
-        run: |
-          rm -f \
-          Packages \
-          Packages.bz2 \
-          Release
+        run: rm -f Packages Packages.bz2 Release
           
       - name: Creat new file Packages , Packages.bz2
         run: |
