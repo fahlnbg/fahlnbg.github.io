@@ -36,7 +36,7 @@ jobs:
 
           # Tính toán checksum và kích thước cho tệp Packages
           echo "MD5Sum:" > Release
-          printf "%s" "$(md5sum ./Packages | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages) Package" >> Release
+          printf "%s" "$(md5sum ./Packages | cut -d ' ' -f 1) $(stat --format="%s" ./Packages) Package\n" >> Release
           printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1)" "$(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
                
 
