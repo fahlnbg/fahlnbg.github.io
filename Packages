@@ -151,21 +151,6 @@ Description: statusbar tweak..
 Name: NiceBarX Cracked byJulio
 Author: niceios
 
-Package: com.fahlnbg.rootlessmake
-Architecture: iphoneos-arm64
-Version: 1.0
-Section: Utilities
-Maintainer: fahlnbg
-Filename: ./debs/com.fahlnbg.rootlessmake_1.0_iphoneos-arm64.deb
-Size: 932
-MD5sum: 6d8cdca1207c0ee80944901d26d1043f
-SHA1: 5d0dad632515fd7b607d80370d0195b6843f987c
-SHA256: d4aefce3056a27056e61d095424bbfe7b06eaa1deda3ff57c67463122c89fa34
-SHA512: b1d17e77895a902d45ec24e4b953f12844b5ac855aca271168620d14f372091118f77af74ca6599d7d96fb892fc87f35b5d7e72831193a8fa99f5ad01c1ecd10
-Description: Auto push Github with gitpush
-Name: Rootless Make
-Author: fahlnbg
-
 Package: com.fahlnbg.sdks
 Architecture: iphoneos-arm
 Version: 10.3
