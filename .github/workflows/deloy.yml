@@ -19,7 +19,6 @@ jobs:
           fi
 
 
-          
       - name: Delete old file
         run: rm -R Packages Packages.bz2 Release
           
@@ -40,7 +39,7 @@ jobs:
           Description: Source Repo by github-action <fahlnbg>
           MD5Sum:" > Release
 
-          # Tính toán checksum và kích thước cho tệp Packages
+          # ...
           printf "%s\n" "$(md5sum ./Packages | cut -d ' ' -f 1) $(stat --format="%s" ./Packages) Package" >> Release
           printf "%s" "$(md5sum ./Packages.bz2 | cut -d ' ' -f 1) $(stat --format="%s" ./Packages.bz2) Package.bz2" >> Release
 
@@ -49,11 +48,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Upload
-        run: |
-          git add --all
-          git config --global user.name 'FAHLNBG'
-          git config --global user.email 'fahlnbg@gmail.com'
-          git commit -m "Push Repo"
-          git push -u origin master
+        - name: Checkout repository
+          uses: actions/checkout@v3
+
+        
+        - name: Upload
+          run: |
+            git add --all
+            git config --global user.name 'FAHLNBG'
+            git config --global user.email 'fahlnbg@gmail.com'
+            git commit -m "Push Repo"
+            git push -u origin master
+            git pull
           
