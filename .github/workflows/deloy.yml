@@ -63,5 +63,4 @@ jobs:
             git config --global user.email 'fahlnbg@gmail.com'
             git commit -m "Push Repo"
             git push -u origin master
-            git pull
           
