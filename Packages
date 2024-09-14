@@ -1,20 +1,3 @@
-Package: com.muirey03.cr4shed
-Architecture: iphoneos-arm64
-Version: 4.3.1-1+debug
-Section: Tweaks
-Maintainer: Muirey03
-Installed-Size: 2404
-Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11)
-Filename: ./debs/Cr4shed_COIPC_Dopamine.deb
-Size: 215200
-MD5sum: 0a0f462184c86841d9882fc7d91240a3
-SHA1: fe356ddb7909a81bd3ed912a41e4183456633963
-SHA256: 5f6ea0dbe219f02fc2132d92def8a56e010abbb3567b2b0575039fb88cc5ed3a
-SHA512: d67017ca1a4cc648824bfe2eff706fcaa28d9d7bfc999e9732369b1ac028e894b98160dc2732ad80b19a1b31b9530409197021616cbd6432852c604ba4b0723a
-Description: A modern crash reporter for iOS
-Name: Cr4shed
-Author: Muirey03
-
 Package: cm90.crossoveripc
 Architecture: iphoneos-arm64
 Version: 1.1-1+debug
@@ -317,6 +300,22 @@ Description: Get Application View on SpringBoard.
 Tag: role::developer
 Name: libAPAppView
 Author: Baw Appie <pp121324@gmail.com>
+
+Package: com.muirey03.cr4shed
+Architecture: iphoneos-arm64
+Version: 4.3.1-1+debug
+Section: Tweaks
+Maintainer: Muirey03
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), com.opa334.libsandy, ldid , cm90.crossoveripc ,com.cokepokes.libnotifications
+Filename: ./debs/cr4shed-Rootless.deb
+Size: 494052
+MD5sum: 6e218d27a9067b5ee5d35650447751d1
+SHA1: 655acb2206d1ac1782708e98891c23efb7543364
+SHA256: 4faa0e270fcda50b8dc26f73c320fcc04fbcd1d176116874a0666c6e5bf2718e
+SHA512: a29c8ef83f895c7f3744b36d85b39754e5ec482563612403afc07d9b32aa4c2ba8097aa51fbb706225f0e0b68da1a3cdf6cc5ef8df7ccc8c1861e3365959a698
+Description: A modern crash reporter for iOS
+Name: Cr4shed Rootless
+Author: Muirey03
 
 Package: dev.traurige.kayoko
 Architecture: iphoneos-arm
