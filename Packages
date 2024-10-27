@@ -284,6 +284,25 @@ Author: fahlnbg
 Icon: file:///Library/IconRepo/tinhchinh.png
 Depiction: https://repo.thuthuatjb.com/index.php?pid=551
 
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.5.5-1
+Section: Terminal_Support
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/com.nan.bindfs_0.5.5-1_iphoneos-arm64.deb
+Size: 13132
+MD5sum: ef1d4ee7d7ab7a7c0584647bee6b4f95
+SHA1: e67478f8667321e5f5986e02f8a7d6cf8f4c1edc
+SHA256: df706fb60e8076e9c1e9b70e2de862a5d0295538938a10cf36670fbabb16e372
+SHA512: d9a37dca825414d9ba88ca138780be5ec05b8b3638f15bbce262343393360d4a7e798bd1572e769f1fddf6719cbc4949c54f82a80100045330dff185ae321cf1
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
 Package: com.rpgfarm.libapappview
 Architecture: iphoneos-arm
 Version: 1.0
