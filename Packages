@@ -432,6 +432,25 @@ Name: Cydia Substrate ( checkra1n-14.8 )
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
+Package: preferenceloader.rootless
+Architecture: iphoneos-arm64
+Version: 2.2.6.6
+Section: System
+Maintainer: zp,Dustin Howett
+Installed-Size: 337
+Provides: preferenceloader (= 2.2.6)
+Conflicts: preferenceloader, preferenceloader.rootless.top
+Replaces: preferenceloader
+Filename: ./debs/preferenceloader.rootless_2.2.6.6_iphoneos-arm64.deb
+Size: 15992
+MD5sum: 807a6d3f9e25e8f34abcb6634e3684d8
+SHA1: 29f8a86f7b288071b93e1f42adf4c4192cb049c9
+SHA256: 7a8f5cdf65890af996d608a608a1f6b1751949c8f68aa17a5ec5f80c4f96096b
+SHA512: d6eda6ba520ac4c9e523cb2527866d07137a69518714e51d2fbc0c977a40bca7cb9d328498f40e4b5e0b7f2de6854b8058802b9a79fd7ef667d14ab7d8fef5f0
+Description: load preferences in style
+Author: Dustin Howett
+Name: PreferenceLoader - rootless
+
 Package: xyz.skitty.filzaplus
 Architecture: iphoneos-arm
 Version: 1.2
